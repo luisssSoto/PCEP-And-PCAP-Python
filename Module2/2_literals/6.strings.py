@@ -10,3 +10,12 @@ stringEmpty = " "
 print("This string is empty: ", stringEmpty, "\n")
 
 print(type(stringEmpty))
+
+"""Concat + and Multiply with strings"""
+name = 'Guido'
+lastName = 'Van Rossum '
+print("My name is",name + " " + lastName)
+
+fullName=name  + ' ' + lastName
+threeTimes=fullName * 3
+print(threeTimes)
