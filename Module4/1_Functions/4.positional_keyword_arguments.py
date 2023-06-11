@@ -33,8 +33,3 @@ print(result)
 
 
 
-
-
-
-
-
