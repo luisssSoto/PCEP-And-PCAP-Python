@@ -1,0 +1,16 @@
+Los programas de alto nivel fueron desarrollados con la idea de agilizar
+y basicamente hacer posible la idea de poder comunicarnos con nuestra
+computadora y darle instrucciones
+Un programa escrito en un lenguaje de programación de alto nivel es un
+código fuente o también conocido como script mientras que el archivo que 
+lo almacena es un archivo fuente
+Los lenguajes de alto nivel por mencionar algunos son:
+*C
+*C+/C#
+*Java
+*Python
+*Javascript
+*Perl
+*Kotlin
+*Swift 
+entre otros

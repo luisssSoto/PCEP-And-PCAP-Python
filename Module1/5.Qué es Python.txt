@@ -1,0 +1,13 @@
+Que es Python
+Python es un lenguaje de alto nivel, interpretado, orientado a objetos
+y/o procedimental
+El autor de dicho lenguaje es Guido Van Rossum y nombró a dicho lenguaje
+por el agrado a una serie de la BBC 'Monthy Python's Flying Circus', asi es no
+fue por su gusto hacia estos encantadores y respetados reptiles
+
+Características
+*Fácil de aprender como nuevo estudiante
+*Fácil de enseñar ya que no tiene reglas tan exclusivas como otros lenguajes
+*Fácil de utilizar debido a que utiliza una menor cantidad de lineas de código que sus rivales
+*Fácil de comprender el código de otro programador
+*Fácil de obtener ya que es gratuito y de código abierto
