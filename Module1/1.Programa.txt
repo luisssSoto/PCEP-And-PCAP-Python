@@ -1,0 +1,11 @@
+Los programas de computadora hoy en dia son tan comunes que los utilizamos
+a diario y en muchas ocasiones incluso no estamos conciente de ello, los
+usamos para escuchar alguna canción, o para saber la mejor ruta que debemos 
+de seguir para llegar a nuestro destino, al buscar un sitio web, redes 
+sociales, mensajeria instantanea y la lista continua cada dia se lanzan
+cientos de aplicaciones que generalmente nos ayudan a hacer nuestra vida
+cotidiana mas sencilla
+Todos estas aplicaciones o programas son o fueron escritos mediante la
+programacion que no es mas que escribir una lista de instrucciones (IL)
+a nuestra computadora para que las ejecute para después correr esa 
+famosa aplicación que a diario usas 
