@@ -14,3 +14,9 @@ print(6.//4)
 print(-6//4)
 print(6.//-4, "\n")
 
+'''Floor division by zero "//" '''
+print("It'll be an error:")
+try:
+    print(5//0)
+except ZeroDivisionError:
+    print("There was a division by zero \n")

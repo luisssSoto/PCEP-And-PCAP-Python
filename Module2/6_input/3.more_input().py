@@ -5,6 +5,7 @@ print(listNumbers)
 '''If you want to print any values inside it:'''
 for number in listNumbers:
     print(number,end=' ')
+print()
 
 '''But remember, that the last values are'nt really numbers (int or float)
 So that you need to cast them...'''
@@ -16,5 +17,5 @@ for number in listNumbers:
 print(newList)
 
 for number in newList:
-    print(type(number))
+    print(number, 'is a', type(number))
 

@@ -1,4 +1,4 @@
-print("You can assign whatever literal you want at the variables")
+print("You can assign whatever literal you want at the variables even an expressions")
 twoLiterals = 5 + 5
 print(twoLiterals)
 

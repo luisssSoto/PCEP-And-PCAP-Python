@@ -12,5 +12,5 @@ print("Welcome to comments")
 #This variable is better to storage the value number 1
 value1 = 1
 
-#And this one is more abstract
+#And this one is more abstract so that it's more complicated to understand it
 paranguakutirimicuaro = 1

@@ -1,4 +1,4 @@
-'''You can reuse a variable'''
+'''You can reuse a variables'''
 
 '''Amount of snakes in the zoo'''
 amountSnakes = 0
