@@ -7,9 +7,18 @@ print(False == 0, "\n")
 #Saving the literal in a variable
 pigsCanFly=False
 print(pigsCanFly)
-tacosMexicanFood=True
-print(tacosMexicanFood)
+mexicanFoodIsDelicious=True
+print(mexicanFoodIsDelicious)
 
 #Check the type of data
 print(type(pigsCanFly))
 
+#All the literal different to 0 and None will be True look at this 
+intLiteralZero=bool(0)
+noneLiteral=bool(None)
+intLiteralNoZero=bool(25)
+floatLiteral=bool(85.8)
+strLiteral=bool('String')
+
+print(intLiteralZero,noneLiteral,sep='\t')
+print(intLiteralNoZero,floatLiteral,strLiteral,sep='\t')
