@@ -3,7 +3,8 @@ print("Welcome For loop")
 for i in range(10):
     print("The i's value is:", i)
 
-#Sometimes you dont know what you should do inside a loop...you can type pass and this is all
+#Sometimes you dont know what you should do inside a loop...
+#you can type pass and this is all
 for i in range(100):
     pass
 

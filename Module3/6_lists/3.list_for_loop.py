@@ -12,6 +12,8 @@ for ins in range(5):
     listForIn.insert(ins+1,ins+1)
 print(listForIn)
 
+'''Before we said that if you try to access to a list's index which not exist you'll
+get an IndexError but when you work with .insert() method there is an exception'''
 listForIn.insert(15,'it\'s allowed')
 print(listForIn)
 

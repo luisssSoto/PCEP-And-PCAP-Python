@@ -7,7 +7,7 @@ print(operand1, '%', operand2, '=', operand1%operand2)
 '''Division by zero is imposible too for module %'''
 print("It'll be an error:")
 try:
-    print(5%0)#This code wasn't execute 
+    print(5%0)
 except ZeroDivisionError:
     print("There was a division by zero \n")
     

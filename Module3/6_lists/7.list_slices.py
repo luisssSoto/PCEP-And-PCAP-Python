@@ -15,6 +15,8 @@ del l1[-1]
 print(l3)
 l3.insert(0,'dinosaur')
 print(l3)
+print(l1)
+print()
 
 #Note: the last element it's not gonna be included
 l4=[]
@@ -30,7 +32,7 @@ l6=l5[2:-1]
 print(l6)
 print()
 
-print("In the next case the list will be empty:")
+print("In the next case the list will be empty: it won't be IndexError but it'll be empty")
 l7=l5[10:-1]
 print(l7)
 print()
@@ -52,4 +54,5 @@ try:
     del l8
     print(l8)
 except NameError:
-    print('there is not any list to print')
+    print('''there is not any list to print because 
+it's just been deleted with "del" instruction''')

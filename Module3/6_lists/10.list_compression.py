@@ -1,6 +1,6 @@
 print("Compression List")
 print("syntax: compressionList=[expression for elemento in list if conditional]")
-#The code above is like the next below:
+#The code above it is the next below:
 #for elemento in list:
   #  if conditional:
     #    expression

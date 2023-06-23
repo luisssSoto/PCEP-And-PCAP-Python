@@ -17,9 +17,13 @@ if 1 == 1 or 1 < 1:
 else:
     print(False, "because nothing condition was true")
 
-#Remember the True always is 1 for default
+#Remember the True always is any value diferent to 0 and None but if you cast it
+#the True value will be 1:
 var = True
 print(int(var))
 var+=1
 print(var)
 
+var='any value'
+castToBool=bool(var)
+print(castToBool)

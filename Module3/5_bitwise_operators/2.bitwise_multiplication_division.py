@@ -26,3 +26,62 @@ print(mul17)
 '''Shorter way'''
 v17<<=2
 print(v17)
+print()
+
+
+'''Remember don't matter with what kind of number you work all depend for what operator
+you use to do the expression'''
+
+"""The expression will be take as a binary numbers"""
+valueBin1=81#0b1010001
+valueBin2=2#0b10
+resultBin=valueBin1>>valueBin2
+print(resultBin)
+print(bin(resultBin))
+
+valueBin1=81#0b1010001
+valueBin2=6#0b110
+resultBin=valueBin1<<valueBin2
+print(resultBin)
+print(bin(resultBin))
+
+"""The expression will be take as a decimal numbers 'cause the operands 
+although the values were writen as binary number"""
+valueBin1=0b1010001
+valueBin2=0b10
+resultBin=valueBin1//valueBin2
+print(valueBin1, '//', valueBin2, '=', resultBin)
+
+valueBin1=0b1010001
+valueBin2=0b110
+resultBin=valueBin1*valueBin2
+print(valueBin1, '*', valueBin2, '=', resultBin)
+print()
+
+
+'''Now if you want to know what is the correct expression to get the same results in
+between the binary and decimal expressions you only need to convert one of the value
+between its contrapart'''
+bin1=0b0101111101
+bin2=0b100
+newResultBin=bin1>>bin2
+print(newResultBin)
+print(bin(newResultBin))
+
+dec1=0b0101111101
+dec2=16#--->0b100=4---->2**4=16
+newResultBin=dec1//dec2
+print(newResultBin)
+print(bin(newResultBin))
+
+bin1=0b10
+bin2=0b1100
+newResultBin=bin1<<bin2
+print(newResultBin)
+print(bin(newResultBin))
+
+dec1=0b10
+dec2=4096#--->0b1100=12---->2**12=4096
+newResultBin=dec1*dec2
+print(newResultBin)
+print(bin(newResultBin))

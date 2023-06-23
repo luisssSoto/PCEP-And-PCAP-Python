@@ -19,3 +19,5 @@ for i in range(1,3):
 else:
     print("else", i)
 print('We continue with the normal flow of the program')
+
+#If you realized it's the same behavior when we work with loop while and "break"

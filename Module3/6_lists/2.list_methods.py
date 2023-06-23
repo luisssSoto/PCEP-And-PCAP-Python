@@ -17,6 +17,11 @@ print(vowels)
 vowels.sort()
 print(vowels)
 
+'''Note: you can't assign a sort() method to any variable 'cause you'll get a None'''
+sortVowels=[]
+sortVowels=vowels.sort()
+print(sortVowels)
+
 """.pop()"""
 popIt=vowels.pop()
 print(vowels)
