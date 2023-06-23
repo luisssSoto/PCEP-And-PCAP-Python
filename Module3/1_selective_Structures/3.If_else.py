@@ -1,9 +1,9 @@
 """Make decisions if-else"""
 planA = "Let's go outside"
-planB = "Let's watch a serie on \"Netflix\""
-isSafety = False
+planB = "Let's watch a serie in \"Netflix\""
+isSafetyOutside = False
 
-if isSafety == True:
+if isSafetyOutside == True:
     print(planA)
 else:
     print(planB)
@@ -11,7 +11,7 @@ else:
 print("We continue with the normal flow of the program")
 
 '''This way is easier and is the same'''
-if isSafety:
+if isSafetyOutside:
     print(planA)
 else:
     print(planB)

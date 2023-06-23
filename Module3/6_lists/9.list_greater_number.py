@@ -16,3 +16,8 @@ l2=l1
 l3=l2
 del l2
 print(l1)
+
+print('in situ')
+print(l3)
+del l3[:]
+print(l1)

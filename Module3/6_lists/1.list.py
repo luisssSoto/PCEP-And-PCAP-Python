@@ -4,7 +4,7 @@ print('Welcome to the list')
 numbers=[0,1,2,3,4]
 print(numbers)
 
-'''add one element'''
+'''assign one element'''
 numbers[0]=111
 print(numbers)
 
