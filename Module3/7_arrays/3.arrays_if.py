@@ -7,6 +7,7 @@ for col in array1:
     for row in col:
         if row % 2 != 0:
             print(row, end=' ')
+print()
 print(array1)
 print()
 

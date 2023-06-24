@@ -10,5 +10,5 @@ print('Compression\'s Array')
 compChessBoard=[[j for j in range(8)] for i in range(5)]
 print(compChessBoard)
 
-print(compChessBoard[4][0])
+print(compChessBoard[4][7])
 print()
