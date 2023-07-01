@@ -19,3 +19,12 @@ print(l6)#-14,-12,-10,8,
 
 l7=[-2-l for l in range(-3,4)]
 print(l7)#1,0,-1,-2,-3,-4,-5
+print()
+
+"""Changes in situ"""
+list1=['a', 'b', 'c']
+list2=list1
+list3=list2
+del list2[0]
+print(list1)
+
