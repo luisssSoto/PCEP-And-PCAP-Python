@@ -28,3 +28,10 @@ list3=list2
 del list2[0]
 print(list1)
 
+"""Changes not in situ"""
+del list1
+print(list2)
+try:
+    print(list1)
+except NameError:
+    print('this var doesn\'t exist')

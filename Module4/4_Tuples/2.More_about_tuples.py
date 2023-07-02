@@ -29,7 +29,18 @@ t3=('tuple3',[1,2,3], (3.14,4.5))
 t1,t2,t3=t2,t3,t1
 print(t1,"\n", t2,"\n", t3)
 
-#If you combine a tuple with another one but in some one of them there is
+#If you combine a tuple with another one but in someone of them there is
 #a tuple, set, dictionary or list, so the format will be the next
 t4=('two','words')+t2
 print('t4:',t4)
+
+"""Remember the changes in situ can't be possible in tuples """
+try:
+    del t4[0]
+except TypeError:
+    print('This is possible because there is not a change in situ')
+    del t4
+    try:
+        print(t4)
+    except NameError:
+        print('This element has gone')
