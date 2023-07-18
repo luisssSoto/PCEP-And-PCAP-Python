@@ -14,3 +14,8 @@ value1 = 1
 
 #And this one is more abstract so that it's more complicated to understand it
 paranguakutirimicuaro = 1
+
+#If you want to comment something you can try with the next commands:
+#CTRL + / (Windows) or CMD + / (Mac OS). 
+
+#Hi I'm gonna be a comment in a few seconds

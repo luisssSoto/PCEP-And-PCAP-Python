@@ -20,3 +20,9 @@ try:
     print(5//0)
 except ZeroDivisionError:
     print("There was a division by zero \n")
+
+'''Note:
+The result of floor division always will be an .0 even if it's a
+float number, look at the next example:'''
+print(7/.3)
+print(7//.3)

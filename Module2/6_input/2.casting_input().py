@@ -3,6 +3,12 @@ listening3 = input("Introduce any number: ")
 print(listening3 * 5)
 print(listening3 + '5')
 
+#Note: When you put a negative value or 0 to multiply a string the
+#result always will be an empty string, take a look at the next line
+isEmpty='empty String'*0
+print(isEmpty)
+print('len of "isEmpty variable:"', len(isEmpty))
+
 #The result above wasn't error but take a look at the next piece of code
 try:
     print(listening3-2)
