@@ -20,3 +20,13 @@ print()
 
 hospital[0][5][6][2]='Adolf\'s bed'
 print(hospital)
+
+'''The hospital directors decided to fix all the rooms, but this change 
+needs to be slow, so that, they decided to fix the last bed for each room
+so... you need to put all of them in "Not available"'''
+
+for building in hospital:
+    for floor in building:
+        for room in floor:
+            room[5]='Not available'
+print(hospital)
