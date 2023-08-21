@@ -17,7 +17,7 @@ def scope2():
 
 print(scope2())
 
-'''3.BUT if exist a variable inside a function with the same name,this is the result:'''
+'''3.BUT if exists a variable inside a function with the same name,this is the result:'''
 var3=3
 def scope3():
     var3="three"
@@ -26,3 +26,6 @@ def scope3():
 print(var3)
 print(scope3())
 print(var3)
+
+'''This is possible because, we can say that the variable inside any function
+has more hierarchy than the others'''
