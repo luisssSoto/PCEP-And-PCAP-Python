@@ -38,9 +38,20 @@ print('t4:',t4)
 try:
     del t4[0]
 except TypeError:
-    print('This is possible because there is not a change in situ')
+    print('The code below is possible because there is not a change in situ')
     del t4
     try:
         print(t4)
     except NameError:
         print('This element has gone')
+      
+'''It's the same result when we multiplicate them'''  
+tupletest=((1,2),(3,4),(5,6))
+t = tupletest*3
+print('t', t)
+
+'''Note: you can convert any iterable data to a tuple or vice versa'''
+list1=[1,2.5,3]
+tuple1=tuple(list1)
+print(tuple1)
+print(type(tuple1))
