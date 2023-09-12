@@ -33,3 +33,17 @@ print('values method:')
 print(dictSpanishEnglish.values())
 for i in dictSpanishEnglish.values():
     print(i)
+    
+
+'''When you are creating a dictionary which is quite large, It's 
+a good idea use sangria francesa, just like here: '''
+
+internationalFood={
+    'Mexico':'tacos',
+    'French':'pizza',
+    'USA':'hamburguer',
+    'Italy':'pasta'}
+print(internationalFood)
+
+for dish in internationalFood:
+    print(dish)
