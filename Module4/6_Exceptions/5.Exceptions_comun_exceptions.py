@@ -33,3 +33,21 @@ except AttributeError:
 '''SyntaxError'''
 print('This kind of error you must avoid to manage with a try-except,\
     because it\'s better to manage them cleaning the code by ourselves')
+
+'''NameError'''
+value_float=1.1
+value_int=1
+value_str='1'
+
+secret_value=value_int
+secret_type=type(secret_value)
+
+if secret_type == type(value_float):
+    print(secret_value, 'is float number')
+elif secret_type == type(value_int):
+    try:
+        prin(secret_value, 'is an int number')
+    except NameError:
+        print('This happens because the variable "prin" does not exist')
+else:
+    print(secret_value, 'is a string')
