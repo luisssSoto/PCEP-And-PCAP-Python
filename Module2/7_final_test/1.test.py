@@ -21,3 +21,15 @@ module=greater%shorter
 print(f'case 1: {module}')
 module=shorter%greater
 print('case 2:', module)
+
+'''At the moment to initializing a couple of variable of the same type
+the way is below is easier'''
+
+x=y=z=1
+print(x,y,z,sep='|')
+print(id(x), id(y), id(z), sep='|')
+
+'''But if you want to unpack a kind of array or the same number of values to the same
+number of variables you can use this one: '''
+x, y, z = 9, 10, 11
+print(x,y,z,sep='|')

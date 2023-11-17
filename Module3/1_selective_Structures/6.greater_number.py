@@ -18,7 +18,7 @@ if n3 > greaterNumber: greaterNumber = n3
 print('The greater number between',n1,n2,n3,'is:',greaterNumber)
 
 
-'''You can do it easier and with l5ots of numbers'''
+'''You can do it easier and with lots of numbers'''
 listNumbers=input('Type a couple of numbers separate by one space: ').split()
 listIntNumbers=[int(number) for number in listNumbers]
 greaterNumber=-999_999_999
