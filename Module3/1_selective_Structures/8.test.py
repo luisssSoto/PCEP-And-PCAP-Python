@@ -1,4 +1,4 @@
-'''You can put the whole if's body if there is only one instruction'''
+'''You can put the whole sentence "if" in on line if there is only one instruction'''
 if type('string') == type('another String'): print('Don\'t forget you can put all the body if in one line')
 else: print('Another comment')
 

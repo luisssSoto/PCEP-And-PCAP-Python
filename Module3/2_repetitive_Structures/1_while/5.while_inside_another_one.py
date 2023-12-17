@@ -3,7 +3,7 @@ external while runs first and then the inside while, when the inside while finis
 then the external while runs again'''
 secretNumber=13
 while secretNumber % 2 != 0:
-    while secretNumber > 4:#you can modify the var to odd number and never go out to loop
+    while secretNumber > 3:#you can modify the var to odd number and never go out to loop
         print(secretNumber)
         secretNumber-=1
     print('I\'m still inside of the loop')
