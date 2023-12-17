@@ -28,7 +28,7 @@ else:
 print('We continue with the normal flow of the program')
 
 
-'''But you need to entry in the loop while to works the break, 
+'''But you need to entry in the loop "while" to works the break, 
 if not never will be execute the while and break'''
 
 even=8
