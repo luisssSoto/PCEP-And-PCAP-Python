@@ -23,7 +23,7 @@ for i in range(1,1):
 for i in range(2,1):
     print("Here neither")
 
-'''You can iterar to for cycle in reverse to:'''
+'''You can iterate to for cycle in reverse to:'''
 for i in range(10, 2, -2):
     print('Im running in reverse!', i)
 
