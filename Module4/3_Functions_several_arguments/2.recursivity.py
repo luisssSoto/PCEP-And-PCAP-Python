@@ -13,7 +13,7 @@ def addingRecursive(number1):
     if number1 == 20:
         return 6
     else:
-        return number1 + addingRecursive(number1+4) # 5+8, 8+11, 11+14, 14+17, 17+20---->return 6 --->17+6=23, 14+23=37, 11+37=48, 8+48=56, 56+5=61 
+        return number1 + addingRecursive(number1+4) # 4+8, 8+12, 12+16, 16+20---->return 6 --->16+6=22, 12+22=34, 8+34=42, 4+42=46 
 print(addingRecursive(4))
 
 '''Subtraction Example'''
