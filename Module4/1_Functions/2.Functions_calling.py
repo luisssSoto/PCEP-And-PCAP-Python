@@ -17,6 +17,6 @@ print(msg())
 msg="Hi"
 print(msg)
 
-print(msg())#This will be an tyme error execution
+print(msg())#This will be a tyme error execution
 
 #Now are you understanding?

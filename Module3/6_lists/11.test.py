@@ -35,3 +35,23 @@ try:
     print(list1)
 except NameError:
     print('this var doesn\'t exist')
+
+'''len in a list inside another one to another one'''
+list1=[1,2]
+list2=['dog', 'cat', 'mouse']
+list3=['anything']
+
+list1.insert(1,list2)
+print(list1)
+print(len(list1))
+
+list1[1].insert(0,list3)
+print(list1)
+print(len(list1))
+
+'''Weird cases'''
+weirdList=[3, 'weird', True]
+print(weirdList[weirdList[-1]])
+
+my_list = [1, 2, 3, 4]
+print(my_list[-3:-2])
