@@ -53,6 +53,8 @@ try:
 except TypeError:
     print('TypeError, you can\'t assign a tuple type as key')
 print(f'The value of the: {dict2.keys()}, is: {dict2.values()}')
+for key, value in dict2.items():
+    print(f'key: {key} and value: {value}')
 
 '''Boolean as a key'''
 try:

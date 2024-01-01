@@ -1,6 +1,6 @@
 """Tuples what they can do"""
 print("Welcome to tuples instructions")
-tuple1=('tuple', 1,None, True, 14.6)
+tuple1=('tuple', 1, None, True, 14.6)
 
 #iteration
 for i in range(len(tuple1)):
