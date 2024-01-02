@@ -47,6 +47,12 @@ print(sorted(jobs))
 sortedJobs=sorted(jobs)
 print(sortedJobs)
 
+'''10. There is another method it calls .pop, it's similar to
+popitem() method but works different:'''
+elementPop=jobs.pop('software developer')
+print(f'using pop() method: {elementPop}')
+print(f'this is the result after applying the pop method: {jobs}')
+
 '''Remember the del is also allow in dicts'''
 '''10. del'''
 del jobs['firefighter']
