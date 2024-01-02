@@ -1,5 +1,6 @@
 '''There is a default except that you can use but this one
-needs to be at the end of the all exceptions'''
+needs to be at the end of the all exceptions, if not do that
+it'll be a Syntax Error'''
 
 
 try:

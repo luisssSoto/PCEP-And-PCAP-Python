@@ -1,5 +1,5 @@
 '''There are two types of errors that could happen:
-1. An error inside of our own code
+1. An error inside of our own code (syntax errors)
 2. An error from the user who introduce an invalid data'''
 '''An example could be more helpful:'''
 
