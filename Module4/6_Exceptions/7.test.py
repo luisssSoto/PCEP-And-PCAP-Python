@@ -26,8 +26,10 @@ except (ValueError, ZeroDivisionError, KeyboardInterrupt):
     print('''Your data is invalid, 
           you need to put only numbers 
           but omit the 0 and don't type CTRL + C''')
-except:
+except (IndexError, SyntaxError):
     print('Something more was wrong')
+except:
+    print('This is the most abstract exception')
     
 '''4. Remind the most common exceptions:
 a) ValueError
