@@ -62,3 +62,15 @@ try:
     print(jobs)
 except NameError:
     print('The list was deleted')
+    
+'''11. There is another way to updata a dictionary'''
+dictionary={}
+#This way is well-known
+dictionary.update({'a': 1})
+print(dictionary)
+#But this is a new one
+dictionary['b']=2,
+print(dictionary)
+#And remember how to access to a specific element
+print(dictionary['b'])
+print(dictionary['b'][0])
