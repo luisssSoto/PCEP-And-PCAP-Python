@@ -3,9 +3,9 @@ Type as a comment the number that you expect the print
 function will show on screen'''
 
 d=7
-b=bin(d)
-o=oct(d)
-h=hex(d)
+b=bin(d)#111
+o=oct(d)#7
+h=hex(d)#7
 
 print(d, b, o, h, sep='|')
 

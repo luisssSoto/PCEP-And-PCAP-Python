@@ -16,3 +16,7 @@ print(2.5*10**2.8)
 
 plank = 6.62607E-34
 print("It's allow use negative numbers", plank, "Python translate the shorter version adding an \"E\" at the end \n")
+
+#It's important to know that all the numbers when you use this sintax:
+#nNumber+E+nNumber the result always will be a float number:
+print(type(plank))

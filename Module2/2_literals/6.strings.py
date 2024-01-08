@@ -20,5 +20,5 @@ fullName=name  + ' ' + lastName
 threeTimes=fullName * 3
 print(threeTimes)
 
-#You just need to remember when you use "+" with strings it won'r be any spaces between the words:
+#You just need to remember when you use "+" with strings it won't be any spaces between the words:
 print('Coco'+'drile',' is a dangerous a wild'+' animal')
