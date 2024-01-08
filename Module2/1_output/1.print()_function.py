@@ -23,6 +23,10 @@ print()
 print("Programming","Fundamentals","in", sep="***", end=" ")
 print("Python")
 
+#The order of the sep and end don't matter
+print(1,2,3, end="<", sep=">")
+print(4,3, end='\n', sep=">")
+
 #Remember the next sign \ means an interruption
 #New Line \n
 print("Each\n", "piece of code\n", "on one line")
