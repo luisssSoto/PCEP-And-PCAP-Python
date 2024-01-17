@@ -8,3 +8,17 @@ greater, shorter = 58.9, 2.13
 maxValue=max(greater,shorter)
 minValue=min(shorter,greater)
 print(f'{maxValue} is greater than {minValue}')
+
+print('''Remember there is a Selective Structure''')
+print('only if')
+floatNumber=3.3
+if type(floatNumber)==(float): print("It's possible")
+
+print('\n', 'if else')
+if floatNumber >= 5: print(f'{floatNumber} is >= to 5')
+else: print(f'{floatNumber} is < than 5')
+
+print("\n", 'if, elif, and else')
+if floatNumber > 5: print('🤔')
+elif floatNumber == 3.3: print("🥳")
+else: print('😒')
