@@ -1,4 +1,3 @@
-
 '''Be careful with details: '''
 print('hi' + 'my name is','Alejandro', sep=' ')
 print('hi', 'my name is', 'Alejandro', sep=' ')

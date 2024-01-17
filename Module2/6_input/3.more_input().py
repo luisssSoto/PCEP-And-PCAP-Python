@@ -18,4 +18,3 @@ print(newList)
 
 for number in newList:
     print(number, 'is a', type(number))
-
