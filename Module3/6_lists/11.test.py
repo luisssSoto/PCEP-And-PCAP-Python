@@ -50,8 +50,19 @@ print(list1)
 print(len(list1))
 
 '''Weird cases'''
+'''1. case'''
 weirdList=[3, 'weird', True]
 print(weirdList[weirdList[-1]])
 
+'''2. case'''
 my_list = [1, 2, 3, 4]
 print(my_list[-3:-2])
+
+'''3. case'''
+'''Always when we work with slices lists though the list doesn't have
+that index, it's possible to do it and there won't be any error'''
+duo=[True, True, False]
+choices=duo[3:]#try to delete ":"
+for choice in choices[-2:]:#try to delete ":"
+    if choice:
+        print('*')

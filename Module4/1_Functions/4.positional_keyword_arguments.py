@@ -28,8 +28,8 @@ print(result)
 
 #result=adding(a=3,7,2)#---->SyntaxError
 
+'''Note'''
+def anyOther(value1, value2=2, value3=3):
+    return (value1+value2+value3)
 
-
-
-
-
+print(anyOther(value2=4, value1=2))
