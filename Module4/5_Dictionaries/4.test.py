@@ -13,6 +13,9 @@ for job in jobs:
 for job in jobs.keys():
     print(f'job: {job} people: {jobs[job]}')
 
+t=jobs.keys()
+print(t)
+
 '''2. .values method'''
 print(jobs.values())
 
@@ -74,3 +77,26 @@ print(dictionary)
 #And remember how to access to a specific element
 print(dictionary['b'])
 print(dictionary['b'][0])
+
+'''12. The methods .keys() .values() and .items() will return a tuple'''
+numbers={'one': 1,'two': 2, 'three': 3}
+for number in numbers.keys():
+    print(number[0],end="")
+print()
+
+'''13. Assign a particular value to a variable'''
+languages={
+    'Mexico': 'Spanish',
+    'U.S': 'English',
+    'Brasil': 'Portuguese'}
+
+mexican=languages['Mexico']
+print(mexican)
+
+'''14. Adding a new element'''
+languages['Japan']='japanesse'
+print(languages)
+
+'''15 iterating with a simple way'''
+for idiom in languages:
+    print(idiom, languages[idiom])

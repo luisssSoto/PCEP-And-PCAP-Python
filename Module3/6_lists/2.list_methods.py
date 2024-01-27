@@ -26,3 +26,7 @@ print(sortVowels)
 popIt=vowels.pop()
 print(vowels)
 print(popIt)
+
+""".index()"""
+place=vowels.index('e')
+print(place)
