@@ -1,0 +1,23 @@
+Versiones
+Existen 2 versiones en Python la versión 2 que todavía existen varias
+aplicaciones que fueron diseñadas con dicha versión y la versión 3 más
+vigente y que se sigue actualizando, es importante mencionar que ambas 
+versiones no son compatibles y que el código escrito en Python 2 no 
+podrá ser interpretado por el interprete de Python 3 y viceversa
+
+CPython
+Al escribirse originalmente con el lenguaje de programación de alto 
+nivel "C" por Guido se obtienen muchas de las caracteristicas de C como
+la portabilidad de hecho al actualizar o implementar algun cambio en 
+Python se deberá de aceptar por la Python Software Foundation (PSF) que 
+es administrada por el mismo Guido y que utilizan aun hoy en dia dicho
+lenguaje para muchas de sus actualizaciones
+
+Cython.
+Te imaginas escribir codigo en Python pero interpretarlo en C, esto es
+posible gracias a Cython con la finalidad de conseguir un script con 
+menos lineas de código pero interpretado de una manera más rapida gracias
+a C
+
+Jython sigue las implementaciones de Python 2
+PYPY y RPython sigue las implementaciones de Python 3
