@@ -27,3 +27,5 @@ for p in sys.path:
 #you can use a relative path, but be careful
 sys.path.append("C:\\PCEP-Certified-Entry-Level-Python-Programmer-\\PCAP\\Module1\\1.32_yourOwnModule")
 import myOwnModule2
+
+print(sys.path)
