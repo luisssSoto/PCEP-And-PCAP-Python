@@ -8,3 +8,6 @@ print('.'.join(l))
 print('+'.join(['2','2']),'= 4')
 
 print(' '.join(['P','i','p']))
+
+# Note: it could be a tuple as parameter
+print('tuple'.join(('1', 'True', 'None')))
