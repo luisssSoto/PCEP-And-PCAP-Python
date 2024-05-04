@@ -1,5 +1,5 @@
-""" Procedimental"""
-'''Procedimental'''
+""" Procedural Approach"""
+'''Procedural'''
 ''' This way was popular until appears POO...
 It is used to small and specific proyects.
 Here exist two worlds: the data and the code, here the functions
