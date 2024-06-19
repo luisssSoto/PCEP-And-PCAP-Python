@@ -1,6 +1,6 @@
 """ is Operator """
 ''' It checks if one object is the same than the second one
-Note: the objects pass its memory idetifier during the assignation to any
+Note: the objects pass its memory identifier during the assignation to any
 variable NOT the object, take a look of the next to discover it yourself: '''
 
 class Sample:
@@ -15,6 +15,13 @@ print(object1 is object2)
 print(object2 is object3)
 print(object3 is object1)
 print(object1.var, object2.var, object3.var)
+print()
+
+'''You can probe this figuring out their memory direction'''
+print(f'object 1: {id(object1)}')
+print(f'object 2: {id(object2)}')
+print(f'object 3: {id(object3)}')
+print()
 
 '''Compare the above result with the next below: '''
 string1 = 'Maria had'

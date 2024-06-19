@@ -1,5 +1,5 @@
 """ __str__ method """
-''' When you want show an object like a string by printing it whit the
+''' When you want show an object like a string by printing it with the
 print() function, Python look inside its class and search __str__ method,
 but the most cases the result will show the memory direction where the 
 object is, but, you can modify its behavior yourself '''

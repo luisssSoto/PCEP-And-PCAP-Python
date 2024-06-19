@@ -1,5 +1,5 @@
 """ super instruction """
-''' Exist two methods to access whichever propertie/attribute, method, of one Superclass
+''' Exist two methods to access whichever propertie/attribute method, of one Superclass
 from its Superclass'''
 
 ''' 1. Knowing the exact name of a Superclass'''
