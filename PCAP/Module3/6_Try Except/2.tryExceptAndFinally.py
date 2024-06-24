@@ -18,4 +18,6 @@ print(reciprocal(2))
 print(reciprocal(0))
 
 '''When we use finally statement whatever the result is, it is going to execute its 
-code of block'''
+code of block, also you can ommit the else and the finally element,
+I mean, they can work separately too, probe it to comment the finally
+and after the else block'''
