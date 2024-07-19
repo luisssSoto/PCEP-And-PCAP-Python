@@ -3,7 +3,7 @@
 1. with one argument can read 1 character
 2. without any argument reads all the file
 3. at the end of the file, the head virtual arrives at the end of the file
-and returns a '' empty string '''
+and returns an '' empty string '''
 
 '''1. reading a file with 1 argument'''
 
