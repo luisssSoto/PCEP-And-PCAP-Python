@@ -30,3 +30,7 @@ print(popIt)
 """.index()"""
 place=vowels.index('e')
 print(place)
+
+'''.extend()'''
+vowels.extend(['u', 'y'])
+print(vowels)
