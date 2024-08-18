@@ -1,6 +1,7 @@
 """mkdir and listdir"""
 '''mkdir creates a new directory but if this has been created before
 will be an error'''
+'''listdir allows us to see all the content in the current directory'''
 
 import os
 
