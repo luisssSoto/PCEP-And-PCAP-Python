@@ -9,4 +9,7 @@ print(date1 - date2)
 datetime1 = datetime(2021, 11, 4, 15, 30, 20, 0)
 datetime2 = datetime(2020, 10, 3, 15, 25, 15, 0)
 print(f"date time 1: {datetime1} and date time 2: {datetime2}")
-print(datetime1 - datetime2)
+
+# Both datetime and date operations returns a timedelta object
+print(type(date1 - date2))
+print(type(datetime1 - datetime2))
