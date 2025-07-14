@@ -1,7 +1,7 @@
 '''Namespaces'''
-'''a namespace is a no phisic space where a module keeps all of ist 
-entities; for instance, variables, const, functions, methods, objects etc'''
-'''It's possible to live to entities with the same name in the same
+'''a namespace is a no phisic space where a module keeps all of its 
+entities; for instance; variables, const, functions, methods, objects etc'''
+'''It's possible have two entities with the same name in the same
 namespace:'''
 import math 
 
