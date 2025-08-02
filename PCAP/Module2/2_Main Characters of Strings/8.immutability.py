@@ -1,11 +1,11 @@
 """Immutability in Strings"""
 
 '''Any method from list in order to change the value of 
-the list in situ is available in the strings and this is
+the list in situ is not available in the strings and this is
 because the strings are immutables'''
 
 string = ''
-for i in range(ord('a'), ord('z')+1):
+for i in range(ord('a'), ord('z') + 1):
     string += chr(i)
 print(string)
 
